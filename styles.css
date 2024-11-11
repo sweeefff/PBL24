@@ -56,7 +56,7 @@
 }
 @media only screen and (max-width: 992px) {
   .dropdown-menu.show {
-    flex-wrap: wrap;
+    flex-wrap:  wrap;
     max-height: 350px;
     overflow-y: scroll;
   }

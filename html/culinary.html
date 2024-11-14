@@ -1,0 +1,209 @@
+<html>
+ <head>
+  <title>
+   JogFood
+  </title>
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #666666;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: white;
+        }
+        .navbar-nav .nav-link {
+            color: white;
+        }
+        .content {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #666666;
+        }
+        .review-box {
+            border: 2px solid #666666;
+            border-radius: 10px;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .footer {
+            background-color: #666666;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .submit-btn {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+        .form-control::placeholder {
+            text-align: center;
+        }
+  </style>
+ </head>
+ <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background: linear-gradient(to right, #ad7155, #7d3800);">
+        <div class="container-fluid">
+            <img src="/assets/icon/jogfood.png" width=264px alt="Logo">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Makanan
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul>
+                        <li><a class="dropdown-item" href="#">Makanan Manis</a></li>
+                        <li><a class="dropdown-item" href="#">Makanan Asin</a></li>
+                        <li><a class="dropdown-item" href="#">Makanan Ringan</a></li>
+                        <li><a class="dropdown-item" href="#">Viral Food</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Minuman
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul>
+                        <li><a class="dropdown-item" href="#">Minuman Tradisional</a></li>
+                        <li><a class="dropdown-item" href="#">Minuman Non Tradisional</a></li>
+                        <li><a class="dropdown-item" href="#">Viral Drink</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Restoran</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profil.html">Profil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+        </ul>
+        <div class="d-flex ms-auto my-2 my-lg-0">
+            <div class="nav-item"><a class="nav-link" href="register.html">Register</a></div>
+        </div>
+        <div class="d-flex ms-auto my-2 my-lg-0">
+            <div class="nav-item"><a class="nav-link" href="login.html">Login</a></div>
+    </div>
+        </div>
+            </nav>
+    <!--Navbar End-->
+  <div class="container content">
+   <div class="row">
+    <div class="col-md-6">
+     <div class="carousel slide" data-bs-ride="carousel" id="carouselExampleControls">
+      <div class="carousel-inner">
+       <div class="carousel-item active">
+        <img alt="Placeholder image of a dish" class="d-block w-100" height="500" src="https://storage.googleapis.com/a1aa/image/bMvAqU8hFn6PJ5nrd1b7lbVD45HRiIZ4tXo5ZEiQqD7eQ93JA.jpg" width="500"/>
+       </div>
+      </div>
+      <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleControls" type="button">
+       <span aria-hidden="true" class="carousel-control-prev-icon">
+       </span>
+       <span class="visually-hidden">
+        Previous
+       </span>
+      </button>
+      <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleControls" type="button">
+       <span aria-hidden="true" class="carousel-control-next-icon">
+       </span>
+       <span class="visually-hidden">
+        Next
+       </span>
+      </button>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h2>
+      Gudeg
+     </h2>
+     <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     </p>
+    </div>
+   </div>
+   <h3>
+    Bahan Masakan
+   </h3>
+   <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+   </p>
+   <h3>
+    Cara Membuat
+   </h3>
+   <ol>
+    <li>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+    </li>
+    <li>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+    </li>
+    <li>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+    </li>
+    <li>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+    </li>
+    <li>
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco la
+    </li>
+   </ol>
+   <div class="review-box">
+    <textarea class="form-control" placeholder="Tulis Review..." rows="3"></textarea>
+    <div class="mt-2">
+     <button class="btn btn-outline-secondary">
+      <i class="fas fa-thumbs-up">
+      </i>
+     </button>
+     <button class="btn btn-outline-secondary">
+      <i class="fas fa-thumbs-down">
+      </i>
+     </button>
+     <button class="btn btn-outline-secondary">
+      <i class="fas fa-share">
+      </i>
+     </button>
+     <button class="btn btn-primary submit-btn">
+      Submit
+     </button>
+    </div>
+   </div>
+  </div>
+  <div class="footer">
+    <img alt="Logo" src="/assets/icon/jogfood.png" width="264px"/>
+    <p>
+        <strong>Tempat berbagi pengalaman</strong></br>
+        Bagikan pengalamanmu mengenai kuliner yogyakarta </br> 
+        dan berikan pendapatmu tentang kami!
+    </p>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+ </body>
+</html>

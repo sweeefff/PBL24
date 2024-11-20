@@ -1,3 +1,4 @@
+
 :root {
   --primary: #7f3320;
   --background: #471b10;
@@ -12,6 +13,12 @@
 }
 .font-archivo {
   font-family: "Archivo", sans-serif !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /*navbar*/
@@ -180,13 +187,6 @@
   font-size: 15px;
 }
 
-.footer {
-  float: right;
-  margin: 28px 0 0 18px;
-  font-size: 13px;
-  color: #636363;
-}
-
 .by-name {
   font-weight: 700;
 }
@@ -195,10 +195,39 @@
 .category-section {
   padding: 20px;
 }
-.category-section h4 {
-  font-size: 18px;
-}
-.category-section .see-more {
+.category-section .view-more {
   float: right;
-  font-size: 14px;
+  font-size: 20px;
+}
+
+/*article-section*/
+.article-section {
+  margin: 150px;
+  width: 75%;
+}
+#article-img {
+  max-width: 320px;
+  float: left;
+  border: 3px solid #c9c9c9;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.text-box {
+  color : #fff;
+}
+.text-box h1 {
+  font-size: 30px;
+}
+.text-box p {
+  font-size: 16px;
+}
+
+/*footer*/
+.footer {
+  background-color: #b0b0b0;
+  padding: 20px;
+  text-align: center;
+}
+.footer h2 {
+  font-weight: bold;
 }

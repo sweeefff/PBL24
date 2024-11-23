@@ -16,9 +16,11 @@
 }
 
 * {
+  box-sizing: border-box;
+}
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 /*navbar*/
@@ -74,6 +76,7 @@
     flex-wrap: wrap;
   }
 }
+
 
 /*search-bar*/
 .search {
@@ -140,15 +143,6 @@
   margin: 120px auto;
 }
 
-/*song*/
-#play1 {
-  display: flex;
-  width: 50px;
-  height: 50px;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
 /*card*/
 .card {
   padding: 20px;
@@ -202,8 +196,9 @@
 
 /*article-section*/
 .article-section {
-  margin: 150px;
-  width: 75%;
+  width: 100%;
+  padding: 20px;
+  margin: 0%;
 }
 #article-img {
   max-width: 320px;
@@ -220,6 +215,15 @@
 }
 .text-box p {
   font-size: 16px;
+}
+.product-card {
+  margin-top: 20px;
+  position: relative;
+}
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 /*footer*/
